@@ -33,6 +33,16 @@ static func init_once() -> void:
 			if ff is FontFile:
 				(ff as FontFile).allow_system_fallback = true
 				base_font = ff
+	# Crimson Text'te olmayan harfler için oyunla gelen yedek fontlar (tarayıcıda telefonun fontu kullanılamıyor):
+	# FreeSerif = Rusça ve Hintçe harfler, Noto Serif SC = Çince harfler (yalnızca oyundaki karakterler).
+	if base_font is FontFile:
+		var fbs: Array[Font] = []
+		for fp in ["res://fonts/FreeSerif-subset.ttf", "res://fonts/NotoSerifSC-subset.otf"]:
+			if ResourceLoader.exists(fp):
+				var fb = load(fp)
+				if fb is Font:
+					fbs.append(fb)
+		(base_font as FontFile).fallbacks = fbs
 	if base_font == null:
 		var fv := FontVariation.new()
 		fv.base_font = ThemeDB.fallback_font
