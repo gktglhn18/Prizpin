@@ -9,13 +9,19 @@
 <img src="docs/a_lesson.png" width="200">
 </p>
 
+## Hemen oyna (iPhone, Android, bilgisayar)
+
+**▶ [gktglhn18.github.io/Prizpin](https://gktglhn18.github.io/Prizpin/)** adresini telefonunun tarayıcısında aç (iPhone'da Safari).
+İlk açılışta oyun yaklaşık 40 MB indirir, birkaç saniye sürebilir.
+İstersen Safari'de **Paylaş → Ana Ekrana Ekle** ile telefonuna uygulama gibi bir simge koyabilirsin.
+
 ## Oyunu telefona kur (Android)
 
 1. Telefonundan **[Prizpin.apk](https://github.com/gktglhn18/Prizpin/raw/main/Prizpin.apk)** dosyasını indir.
 2. İndirilen dosyaya dokun. Telefon "bilinmeyen kaynaklardan yükleme" izni isterse ver.
 3. **Yükle**'ye bas, sonra oyunu aç.
 
-> iPhone için şimdilik kurulum dosyası yok (iPhone sürümü için Mac ve Apple geliştirici hesabı gerekiyor).
+> iPhone için kurulum dosyası yok; iPhone'da yukarıdaki tarayıcı sürümünü kullan.
 
 ## İçindekiler
 
