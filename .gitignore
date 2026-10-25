@@ -1,0 +1,6 @@
+# Godot'nun kendi önbelleği (her bilgisayarda yeniden oluşur)
+.godot/
+**/.godot/
+*.idsig
+# Eski deneme projesi
+prizpin-(4.3)/
